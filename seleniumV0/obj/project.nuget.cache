@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "dgSpecHash": "vmvHZk5l31BCpZd23S2Kxdib+U3pOAQ/hTeZeXdqVDz0BOTovshrnXR1fJJcpS/0kaS1TuyByFgrYuHFopiPMA==",
+  "success": true,
+  "projectFilePath": "/Users/grimripper/RiderProjects/seleniumV0/seleniumV0/seleniumV0.csproj",
+  "expectedPackageFiles": [
+    "/Users/grimripper/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/grimripper/.nuget/packages/openqa.selenium.chrome.chromedriverextensions/1.2.0/openqa.selenium.chrome.chromedriverextensions.1.2.0.nupkg.sha512",
+    "/Users/grimripper/.nuget/packages/openqa.selenium.winium/1.0.0.4/openqa.selenium.winium.1.0.0.4.nupkg.sha512",
+    "/Users/grimripper/.nuget/packages/selenium.firefox.webdriver/0.27.0/selenium.firefox.webdriver.0.27.0.nupkg.sha512",
+    "/Users/grimripper/.nuget/packages/selenium.webdriver/4.0.0-beta4/selenium.webdriver.4.0.0-beta4.nupkg.sha512",
+    "/Users/grimripper/.nuget/packages/selenium.webdriver.chromedriver/93.0.4577.1500-beta/selenium.webdriver.chromedriver.93.0.4577.1500-beta.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: OpenQA.Selenium.Winium 1.0.0.4 requires Selenium.WebDriver (= 3.141.0) but version Selenium.WebDriver 4.0.0-beta4 was resolved.",
+      "libraryId": "Selenium.WebDriver",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OpenQA.Selenium.Winium 1.0.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "OpenQA.Selenium.Winium",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
